@@ -10,7 +10,6 @@ C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\obj\Debug\
 C:\King\DevKing\DevSpadeGame\bin\Debug\DevSpadeGame.exe.config
 C:\King\DevKing\DevSpadeGame\bin\Debug\DevSpadeGame.exe
 C:\King\DevKing\DevSpadeGame\bin\Debug\DevSpadeGame.pdb
-C:\King\DevKing\DevSpadeGame\obj\Debug\DevSpadeGame.csprojAssemblyReference.cache
 C:\King\DevKing\DevSpadeGame\obj\Debug\DevSpadeGame.bord.resources
 C:\King\DevKing\DevSpadeGame\obj\Debug\DevSpadeGame.Properties.Resources.resources
 C:\King\DevKing\DevSpadeGame\obj\Debug\DevSpadeGame.csproj.GenerateResource.cache

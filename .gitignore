@@ -7,3 +7,12 @@ DevSpadeGame/obj/Debug/DevSpadeGame.csproj.FileListAbsolute.txt
 *.cache
 *.cache
 *.txt
+*.exe
+*.txt
+DevSpadeGame/bin/Debug/DevSpadeGame.exe
+DevSpadeGame/bin/Debug/DevSpadeGame.pdb
+DevSpadeGame/obj/Debug/DevSpadeGame.csproj.FileListAbsolute.txt
+DevSpadeGame/obj/Debug/DevSpadeGame.csprojAssemblyReference.cache
+DevSpadeGame/obj/Debug/DevSpadeGame.exe
+DevSpadeGame/obj/Debug/DevSpadeGame.pdb
+*.txt
