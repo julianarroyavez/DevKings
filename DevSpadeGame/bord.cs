@@ -29,6 +29,9 @@ namespace DevSpadeGame
 
         private void Button2_Click(object sender, EventArgs e)
         {
+            Rules myNewForm = new Rules();
+
+            myNewForm.Show();
 
         }
     }

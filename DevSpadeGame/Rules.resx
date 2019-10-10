@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="process1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Players:
+- 4 players in two partnerships.
+
+Deck:
+- Standard 52-card deck. Ace is high; 2 is low.
+
+Goal:
+- To be the first partnership to reach 500 points.
+
+Setup:
+- Partners sit across the table from each other. Choose a dealer who will shuffle the deck and deal each player 13 cards.
+
+
+Bidding
+The player to the dealer's left bids first. Each player looks at his cards and bids, indicating a number of tricks. Partners' bids are added; the sum is the number of tricks that partnership must win to score points.
+
+
+Any number from 0 ("Nil") to 13 is a legal bid for each player. Players may not be allowed to pass. Bids do not have to increase with each player. There's only one round of bidding.
+
+
+Example: Alex bids 4. Then Beth bids 3, Charlie bids 2 and David bids 2. Alex and Charlie need to win at least 6 tricks; Beth and David need to win at least 5.
+
+
+Bidding Nil
+A player who bids Nil (zero) is claiming that he won't win any tricks during the hand. If he's successful, his partnership earns a 100-point bonus. However, if he wins one or more tricks, his partnership receives a 100-point penalty.
+
+If a player bids Nil and his partner bids a number, then his partner must still try to win that number of tricks.
+
+Example: Alex bids 4. Charlie, her partner, bids Nil. Charlie will play the hand trying not to win any tricks. However, Alex needs to win at least four tricks.
+
+Note: It's legal for partners to both bid Nil. If both are successful, the partnership earns a 200-point bonus. However, if both partners fail, the partnership receives a 200-point penalty. If one partner succeeds and the other fails, the bonus and penalty wipe each other out; the net effect is 0 points.
+
+Double Nil
+Before looking at his cards, a player may bid Double Nil, also known as Blind Nil. After bidding Double Nil, the player looks at his cards and exchanges three cards with his partner. If he's successful, his partnership earns a 200-point bonus. However, if he fails, his partnership receives a 200-point penalty.
+
+NOTE: It's legal for partners to both bid Double Nil. When this happens, no cards are exchanged. If both are successful, the partnership earns a 400-point bonus. However, if both partners fail, the partnership receives a 400-point penalty. If one partner succeeds and the other fails, the bonus and penalty wipe each other out; the net effect is 0 points.
+
+Gameplay
+The player to the dealer's left plays first ("leads"). He may not lead with a spade unless his hand only includes spades. In fact, unless a player has no option, spades may never be led until the suit is "broken" (see below).
+
+Play continues clockwise. Each player must follow suit (i.e. play the same suit that was led) if possible.
+
+Generally, each trick is won by the player who played the highest rank of the suit led. However, if one or more players played spades, the trick is won by the player who played the highest rank of spades.
+
+When a trick is won, the winning player sets the trick in front of himself so that it's easy to tell how many tricks each player has won.
+</value>
+  </data>
+  <metadata name="process2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>117, 17</value>
+  </metadata>
+</root>
