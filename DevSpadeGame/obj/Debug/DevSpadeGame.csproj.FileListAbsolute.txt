@@ -1,0 +1,9 @@
+C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\obj\Debug\DevSpadeGame.bord.resources
+C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\obj\Debug\DevSpadeGame.Properties.Resources.resources
+C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\obj\Debug\DevSpadeGame.csproj.GenerateResource.cache
+C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\obj\Debug\DevSpadeGame.csproj.CoreCompileInputs.cache
+C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\bin\Debug\DevSpadeGame.exe.config
+C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\bin\Debug\DevSpadeGame.exe
+C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\bin\Debug\DevSpadeGame.pdb
+C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\obj\Debug\DevSpadeGame.exe
+C:\VSRepositories\TestAppGitHubSRFN\DevTest\DevSpadeGame\DevSpadeGame\obj\Debug\DevSpadeGame.pdb
