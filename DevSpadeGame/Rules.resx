@@ -134,7 +134,8 @@ Setup:
 - Partners sit across the table from each other. Choose a dealer who will shuffle the deck and deal each player 13 cards.
 
 
-Bidding
+Bidding:
+
 The player to the dealer's left bids first. Each player looks at his cards and bids, indicating a number of tricks. Partners' bids are added; the sum is the number of tricks that partnership must win to score points.
 
 
@@ -144,7 +145,8 @@ Any number from 0 ("Nil") to 13 is a legal bid for each player. Players may not 
 Example: Alex bids 4. Then Beth bids 3, Charlie bids 2 and David bids 2. Alex and Charlie need to win at least 6 tricks; Beth and David need to win at least 5.
 
 
-Bidding Nil
+Bidding Nil:
+
 A player who bids Nil (zero) is claiming that he won't win any tricks during the hand. If he's successful, his partnership earns a 100-point bonus. However, if he wins one or more tricks, his partnership receives a 100-point penalty.
 
 If a player bids Nil and his partner bids a number, then his partner must still try to win that number of tricks.
@@ -153,12 +155,14 @@ Example: Alex bids 4. Charlie, her partner, bids Nil. Charlie will play the hand
 
 Note: It's legal for partners to both bid Nil. If both are successful, the partnership earns a 200-point bonus. However, if both partners fail, the partnership receives a 200-point penalty. If one partner succeeds and the other fails, the bonus and penalty wipe each other out; the net effect is 0 points.
 
-Double Nil
+Double Nil:
+
 Before looking at his cards, a player may bid Double Nil, also known as Blind Nil. After bidding Double Nil, the player looks at his cards and exchanges three cards with his partner. If he's successful, his partnership earns a 200-point bonus. However, if he fails, his partnership receives a 200-point penalty.
 
 NOTE: It's legal for partners to both bid Double Nil. When this happens, no cards are exchanged. If both are successful, the partnership earns a 400-point bonus. However, if both partners fail, the partnership receives a 400-point penalty. If one partner succeeds and the other fails, the bonus and penalty wipe each other out; the net effect is 0 points.
 
-Gameplay
+Gameplay:
+
 The player to the dealer's left plays first ("leads"). He may not lead with a spade unless his hand only includes spades. In fact, unless a player has no option, spades may never be led until the suit is "broken" (see below).
 
 Play continues clockwise. Each player must follow suit (i.e. play the same suit that was led) if possible.
@@ -166,7 +170,38 @@ Play continues clockwise. Each player must follow suit (i.e. play the same suit 
 Generally, each trick is won by the player who played the highest rank of the suit led. However, if one or more players played spades, the trick is won by the player who played the highest rank of spades.
 
 When a trick is won, the winning player sets the trick in front of himself so that it's easy to tell how many tricks each player has won.
-</value>
+
+Breaking Spades:
+
+Spades are broken when a player cannot follow suit and chooses to play a spade. When a player cannot follow suit, he may choose to play spades, but is not required to.
+
+Note: Spades are also broken if a player has no option and leads with spades.
+
+Example: Alex leads with hearts. Beth and Charlie both play hearts as well. David has no hearts, so he could choose to play spades instead. But David could also choose to play clubs or diamonds.
+
+Scoring:
+
+Each trick in a bid counts for 10 points if a partnership meets its bid. Tricks won above the bid are worth 1 point each.
+
+Example: Beth and David bid 5 tricks and they won 7 tricks. They score 52 points (50 for the tricks bid, plus 2 for the extras, which are known as "bags.")
+
+If a partnership does not meet its bid, it scores 10 negative points for each trick it bid.
+
+Scoring for Nil and Double Nil bids take place as described above. When a player bidding Nil fails, tricks won by that player don't count toward making his partner's bid, but they do count as bags for the partnership.
+
+Sandbagging:
+
+A partnership should avoid winning too many tricks above its bid. Each time a partnership wins 10 bags (cumulative through a game), that partnership receives a 100-point penalty.
+
+Example: Alex and Charlie bid 4 tricks and win 7, then they bid 3 and win 6, then they bid 4 and win 9. They now have 11 bags (3+3+4) and receive a 100-point penalty. The additional bag carries over. If Alex and Charlie win 9 more bags, they receive another penalty.
+
+Continuing Play:
+
+After scoring a hand, if neither partnership has reached 500 points, the player to the dealer's left becomes the new dealer.
+
+Winning:
+
+The first partnership to reach 500 points is the winner. If both partnerships reach 500 in the same hand, the partnership with the highest score is the winner. If there's a tie, play another hand.</value>
   </data>
   <metadata name="process2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>117, 17</value>
