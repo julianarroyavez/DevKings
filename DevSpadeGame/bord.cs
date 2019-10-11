@@ -24,7 +24,8 @@ namespace DevSpadeGame
 
         private void Button1_Click(object sender, EventArgs e)
         {
-
+            startmenu.Hide();
+            DificultPanel.Show();
         }
 
         private void Button2_Click(object sender, EventArgs e)
