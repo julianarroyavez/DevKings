@@ -34,5 +34,10 @@ namespace DevSpadeGame
             myNewForm.Show();
 
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

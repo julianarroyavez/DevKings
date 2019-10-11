@@ -16,3 +16,14 @@ C:\King\DevKing\DevSpadeGame\obj\Debug\DevSpadeGame.csproj.GenerateResource.cach
 C:\King\DevKing\DevSpadeGame\obj\Debug\DevSpadeGame.csproj.CoreCompileInputs.cache
 C:\King\DevKing\DevSpadeGame\obj\Debug\DevSpadeGame.exe
 C:\King\DevKing\DevSpadeGame\obj\Debug\DevSpadeGame.pdb
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\bin\Debug\DevSpadeGame.exe.config
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\bin\Debug\DevSpadeGame.exe
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\bin\Debug\DevSpadeGame.pdb
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\obj\Debug\DevSpadeGame.csprojAssemblyReference.cache
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\obj\Debug\DevSpadeGame.bord.resources
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\obj\Debug\DevSpadeGame.Properties.Resources.resources
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\obj\Debug\DevSpadeGame.Rules.resources
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\obj\Debug\DevSpadeGame.csproj.GenerateResource.cache
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\obj\Debug\DevSpadeGame.csproj.CoreCompileInputs.cache
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\obj\Debug\DevSpadeGame.exe
+C:\Users\Programming14\Desktop\FinalTest\DevKings\DevSpadeGame\obj\Debug\DevSpadeGame.pdb
