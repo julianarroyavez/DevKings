@@ -40,5 +40,10 @@ namespace DevSpadeGame
         {
 
         }
+
+        private void winnerbtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

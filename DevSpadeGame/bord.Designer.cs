@@ -35,6 +35,7 @@
             this.Probutton = new System.Windows.Forms.Button();
             this.Standardbutton = new System.Windows.Forms.Button();
             this.Eassybutton = new System.Windows.Forms.Button();
+            this.winnerbtn = new System.Windows.Forms.Button();
             this.startmenu.SuspendLayout();
             this.DificultPanel.SuspendLayout();
             this.SuspendLayout();
@@ -73,9 +74,9 @@
             this.DificultPanel.Controls.Add(this.Probutton);
             this.DificultPanel.Controls.Add(this.Standardbutton);
             this.DificultPanel.Controls.Add(this.Eassybutton);
-            this.DificultPanel.Location = new System.Drawing.Point(348, 53);
+            this.DificultPanel.Location = new System.Drawing.Point(532, 58);
             this.DificultPanel.Name = "DificultPanel";
-            this.DificultPanel.Size = new System.Drawing.Size(145, 292);
+            this.DificultPanel.Size = new System.Drawing.Size(198, 321);
             this.DificultPanel.TabIndex = 3;
             this.DificultPanel.Visible = false;
             // 
@@ -107,12 +108,23 @@
             this.Eassybutton.UseVisualStyleBackColor = true;
             this.Eassybutton.Click += new System.EventHandler(this.Button3_Click);
             // 
+            // winnerbtn
+            // 
+            this.winnerbtn.Location = new System.Drawing.Point(363, 439);
+            this.winnerbtn.Name = "winnerbtn";
+            this.winnerbtn.Size = new System.Drawing.Size(75, 23);
+            this.winnerbtn.TabIndex = 4;
+            this.winnerbtn.Text = "winner";
+            this.winnerbtn.UseVisualStyleBackColor = true;
+            this.winnerbtn.Click += new System.EventHandler(this.winnerbtn_Click);
+            // 
             // bord
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(851, 531);
+            this.Controls.Add(this.winnerbtn);
             this.Controls.Add(this.DificultPanel);
             this.Controls.Add(this.startmenu);
             this.Name = "bord";
@@ -133,5 +145,6 @@
         private System.Windows.Forms.Button Probutton;
         private System.Windows.Forms.Button Standardbutton;
         private System.Windows.Forms.Button Eassybutton;
+        private System.Windows.Forms.Button winnerbtn;
     }
 }
