@@ -43,6 +43,9 @@ namespace DevSpadeGame
 
         private void winnerbtn_Click(object sender, EventArgs e)
         {
+            Form1 myNewForm = new Form1();
+
+            myNewForm.Show();
 
         }
     }
