@@ -88,5 +88,21 @@ namespace DevSpadeGame
             DificultPanel.Hide();
             BidPanel.Show();
         }
+
+        private void winnerbtn_Click(object sender, EventArgs e)
+        {
+            Form1 myNewForm = new Form1();
+
+            myNewForm.Show();
+
+        }
+
+        private void drawimgbutton_Click(object sender, EventArgs e)
+        {
+            Image img = Image.FromFile(@"C:\Users\Programming10\Desktop\DevKings\DevSpadeGame\cards\10_of_clubs.png");
+            pictureBox1.Image = img;
+            
+        }
+
     }
 }

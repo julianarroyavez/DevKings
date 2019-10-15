@@ -35,6 +35,7 @@
             this.Probutton = new System.Windows.Forms.Button();
             this.Standardbutton = new System.Windows.Forms.Button();
             this.Eassybutton = new System.Windows.Forms.Button();
+
             this.BidPanel = new System.Windows.Forms.Panel();
             this.BackButton = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -54,6 +55,14 @@
             this.startmenu.SuspendLayout();
             this.DificultPanel.SuspendLayout();
             this.BidPanel.SuspendLayout();
+
+            this.winnerbtn = new System.Windows.Forms.Button();
+            this.drawimgbutton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.startmenu.SuspendLayout();
+            this.DificultPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+
             this.SuspendLayout();
             // 
             // button1
@@ -90,15 +99,19 @@
             this.DificultPanel.Controls.Add(this.Probutton);
             this.DificultPanel.Controls.Add(this.Standardbutton);
             this.DificultPanel.Controls.Add(this.Eassybutton);
+
             this.DificultPanel.Location = new System.Drawing.Point(338, 95);
+
+            this.DificultPanel.Location = new System.Drawing.Point(317, 52);
+
             this.DificultPanel.Name = "DificultPanel";
-            this.DificultPanel.Size = new System.Drawing.Size(145, 292);
+            this.DificultPanel.Size = new System.Drawing.Size(198, 321);
             this.DificultPanel.TabIndex = 3;
             this.DificultPanel.Visible = false;
             // 
             // Probutton
             // 
-            this.Probutton.Location = new System.Drawing.Point(39, 233);
+            this.Probutton.Location = new System.Drawing.Point(57, 229);
             this.Probutton.Name = "Probutton";
             this.Probutton.Size = new System.Drawing.Size(65, 32);
             this.Probutton.TabIndex = 2;
@@ -108,7 +121,7 @@
             // 
             // Standardbutton
             // 
-            this.Standardbutton.Location = new System.Drawing.Point(39, 127);
+            this.Standardbutton.Location = new System.Drawing.Point(57, 130);
             this.Standardbutton.Name = "Standardbutton";
             this.Standardbutton.Size = new System.Drawing.Size(65, 32);
             this.Standardbutton.TabIndex = 1;
@@ -118,7 +131,7 @@
             // 
             // Eassybutton
             // 
-            this.Eassybutton.Location = new System.Drawing.Point(42, 34);
+            this.Eassybutton.Location = new System.Drawing.Point(57, 34);
             this.Eassybutton.Name = "Eassybutton";
             this.Eassybutton.Size = new System.Drawing.Size(62, 32);
             this.Eassybutton.TabIndex = 0;
@@ -330,12 +343,44 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.Button3_Click_1);
             // 
+            // winnerbtn
+            // 
+            this.winnerbtn.Location = new System.Drawing.Point(348, 439);
+            this.winnerbtn.Name = "winnerbtn";
+            this.winnerbtn.Size = new System.Drawing.Size(152, 48);
+            this.winnerbtn.TabIndex = 4;
+            this.winnerbtn.Text = "END";
+            this.winnerbtn.UseVisualStyleBackColor = true;
+            this.winnerbtn.Click += new System.EventHandler(this.winnerbtn_Click);
+            // 
+            // drawimgbutton
+            // 
+            this.drawimgbutton.Location = new System.Drawing.Point(609, 188);
+            this.drawimgbutton.Name = "drawimgbutton";
+            this.drawimgbutton.Size = new System.Drawing.Size(198, 66);
+            this.drawimgbutton.TabIndex = 5;
+            this.drawimgbutton.Text = "Draw image";
+            this.drawimgbutton.UseVisualStyleBackColor = true;
+            this.drawimgbutton.Click += new System.EventHandler(this.drawimgbutton_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(569, 351);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(103, 151);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
             // bord
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(851, 531);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.drawimgbutton);
+            this.Controls.Add(this.winnerbtn);
             this.Controls.Add(this.DificultPanel);
             this.Controls.Add(this.startmenu);
             this.Controls.Add(this.BidPanel);
@@ -344,7 +389,11 @@
             this.Load += new System.EventHandler(this.Bord_Load);
             this.startmenu.ResumeLayout(false);
             this.DificultPanel.ResumeLayout(false);
+
             this.BidPanel.ResumeLayout(false);
+
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+
             this.ResumeLayout(false);
 
         }
@@ -358,6 +407,7 @@
         private System.Windows.Forms.Button Probutton;
         private System.Windows.Forms.Button Standardbutton;
         private System.Windows.Forms.Button Eassybutton;
+
         private System.Windows.Forms.Panel BidPanel;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button16;
@@ -374,5 +424,10 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button BackButton;
+
+        private System.Windows.Forms.Button winnerbtn;
+        private System.Windows.Forms.Button drawimgbutton;
+        private System.Windows.Forms.PictureBox pictureBox1;
+
     }
 }
