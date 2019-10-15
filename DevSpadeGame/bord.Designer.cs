@@ -35,7 +35,6 @@
             this.Probutton = new System.Windows.Forms.Button();
             this.Standardbutton = new System.Windows.Forms.Button();
             this.Eassybutton = new System.Windows.Forms.Button();
-
             this.BidPanel = new System.Windows.Forms.Panel();
             this.BackButton = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -52,17 +51,11 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.winnerbtn = new System.Windows.Forms.Button();
+            this.drawimgbutton = new System.Windows.Forms.Button();
             this.startmenu.SuspendLayout();
             this.DificultPanel.SuspendLayout();
             this.BidPanel.SuspendLayout();
-
-            this.winnerbtn = new System.Windows.Forms.Button();
-            this.drawimgbutton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.startmenu.SuspendLayout();
-            this.DificultPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-
             this.SuspendLayout();
             // 
             // button1
@@ -99,11 +92,7 @@
             this.DificultPanel.Controls.Add(this.Probutton);
             this.DificultPanel.Controls.Add(this.Standardbutton);
             this.DificultPanel.Controls.Add(this.Eassybutton);
-
-            this.DificultPanel.Location = new System.Drawing.Point(338, 95);
-
-            this.DificultPanel.Location = new System.Drawing.Point(317, 52);
-
+            this.DificultPanel.Location = new System.Drawing.Point(367, 65);
             this.DificultPanel.Name = "DificultPanel";
             this.DificultPanel.Size = new System.Drawing.Size(198, 321);
             this.DificultPanel.TabIndex = 3;
@@ -363,22 +352,12 @@
             this.drawimgbutton.UseVisualStyleBackColor = true;
             this.drawimgbutton.Click += new System.EventHandler(this.drawimgbutton_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(569, 351);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(103, 151);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
             // bord
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(851, 531);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.drawimgbutton);
             this.Controls.Add(this.winnerbtn);
             this.Controls.Add(this.DificultPanel);
@@ -389,11 +368,7 @@
             this.Load += new System.EventHandler(this.Bord_Load);
             this.startmenu.ResumeLayout(false);
             this.DificultPanel.ResumeLayout(false);
-
             this.BidPanel.ResumeLayout(false);
-
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-
             this.ResumeLayout(false);
 
         }
@@ -427,7 +402,6 @@
 
         private System.Windows.Forms.Button winnerbtn;
         private System.Windows.Forms.Button drawimgbutton;
-        private System.Windows.Forms.PictureBox pictureBox1;
 
     }
 }
