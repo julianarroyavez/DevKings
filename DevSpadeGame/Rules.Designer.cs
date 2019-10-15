@@ -61,7 +61,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Noto Sans Lao", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.textBox1.Location = new System.Drawing.Point(277, 12);
+            this.textBox1.Location = new System.Drawing.Point(365, 12);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(116, 35);
             this.textBox1.TabIndex = 0;
@@ -73,11 +73,11 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Noto Sans Lao", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.textBox2.Location = new System.Drawing.Point(95, 53);
+            this.textBox2.Location = new System.Drawing.Point(171, 53);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(495, 357);
+            this.textBox2.Size = new System.Drawing.Size(495, 385);
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = resources.GetString("textBox2.Text");
             this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);

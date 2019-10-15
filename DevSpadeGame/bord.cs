@@ -30,15 +30,63 @@ namespace DevSpadeGame
 
         private void Button2_Click(object sender, EventArgs e)
         {
+
             Rules myNewForm = new Rules();
 
             myNewForm.Show();
+            
 
         }
 
-        private void Button3_Click(object sender, EventArgs e)
+
+        private void Eassybutton_Click(object sender, EventArgs e)
+        {
+            DificultPanel.Hide();
+            BidPanel.Show();
+       
+        }
+
+        private void BidPanel_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Button3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RichTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Standardbutton_Click(object sender, EventArgs e)
+        {
+            DificultPanel.Hide();
+            BidPanel.Show();
+        }
+
+
+        private void Probutton_Click_1(object sender, EventArgs e)
+        {
+            DificultPanel.Hide();
+            BidPanel.Show();
         }
     }
 }
