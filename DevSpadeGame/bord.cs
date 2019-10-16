@@ -41,9 +41,9 @@ namespace DevSpadeGame
 
         private void Eassybutton_Click(object sender, EventArgs e)
         {
-            DificultPanel.Hide();
-            BidPanel.Show();
-       
+           picturebox1 myNewForm = new picturebox1();
+
+            myNewForm.Show();
         }
 
         private void BidPanel_Paint(object sender, PaintEventArgs e)
@@ -78,15 +78,17 @@ namespace DevSpadeGame
 
         private void Standardbutton_Click(object sender, EventArgs e)
         {
-            DificultPanel.Hide();
-            BidPanel.Show();
+            picturebox1 myNewForm = new picturebox1();
+
+            myNewForm.Show();
         }
 
 
         private void Probutton_Click_1(object sender, EventArgs e)
         {
-            DificultPanel.Hide();
-            BidPanel.Show();
+            picturebox1 myNewForm = new picturebox1();
+
+            myNewForm.Show();
         }
 
         private void winnerbtn_Click(object sender, EventArgs e)
@@ -100,7 +102,7 @@ namespace DevSpadeGame
         private void drawimgbutton_Click(object sender, EventArgs e)
         {
             Image img = Image.FromFile(@"C:\Users\Programming10\Desktop\DevKings\DevSpadeGame\cards\10_of_clubs.png");
-            pictureBox1.Image = img;
+            //pictureBox1.Image = img;
             
         }
 
