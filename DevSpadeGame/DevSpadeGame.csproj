@@ -87,6 +87,9 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="picturebox1.resx">
+      <DependentUpon>picturebox1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -95,6 +98,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Rules.resx">
       <DependentUpon>Rules.cs</DependentUpon>
@@ -113,6 +117,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="background.jpg" />
     <Content Include="cards\10_of_clubs.png" />
     <Content Include="cards\10_of_diamonds.png" />
     <Content Include="cards\10_of_hearts.png" />
@@ -165,6 +170,8 @@
     <Content Include="cards\queen_of_diamonds.png" />
     <Content Include="cards\queen_of_hearts.png" />
     <Content Include="cards\queen_of_spades.png" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,5 +16,26 @@ namespace DevSpadeGame
         {
             InitializeComponent();
         }
+
+        private void Picturebox1_Load(object sender, EventArgs e)
+        {
+            Image img = Image.FromFile(@"background.jpg");
+            card1.Image = img;
+        }
+
+        private void PictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
