@@ -17,3 +17,4 @@ DevSpadeGame/obj/Debug/DevSpadeGame.exe
 DevSpadeGame/obj/Debug/DevSpadeGame.pdb
 *.txt
 /DevSpadeGame/obj/Debug
+/DevSpadeGame/bin/Debug

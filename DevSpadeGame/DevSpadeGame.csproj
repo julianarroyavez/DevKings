@@ -66,9 +66,11 @@
     </Compile>
     <Compile Include="picturebox1.cs">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="picturebox1.Designer.cs">
       <DependentUpon>picturebox1.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,6 +91,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="picturebox1.resx">
       <DependentUpon>picturebox1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,7 +121,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="background.jpg" />
+    <Content Include="backg1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="backg2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="background2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="cards\10_of_clubs.png" />
     <Content Include="cards\10_of_diamonds.png" />
     <Content Include="cards\10_of_hearts.png" />
@@ -170,6 +182,8 @@
     <Content Include="cards\queen_of_diamonds.png" />
     <Content Include="cards\queen_of_hearts.png" />
     <Content Include="cards\queen_of_spades.png" />
+    <None Include="Resources\backg2.jpg" />
+    <None Include="Resources\back2.jpg" />
     <None Include="Resources\background.jpg" />
     <None Include="Resources\back.png" />
   </ItemGroup>
