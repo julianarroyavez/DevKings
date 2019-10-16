@@ -17,13 +17,23 @@ namespace DevSpadeGame
             InitializeComponent();
         }
 
+
         private void Bid1_Click(object sender, EventArgs e)
         {
             BidPanel.Hide();
            
         }
 
-        private void BidPanel_Paint(object sender, PaintEventArgs e)
+        
+
+        private void Picturebox1_Load(object sender, EventArgs e)
+        {
+            Image img = Image.FromFile(@"background.jpg");
+            card1.Image = img;
+        }
+
+        private void PictureBox4_Click(object sender, EventArgs e)
+
         {
 
         }
@@ -31,6 +41,14 @@ namespace DevSpadeGame
         private void Bid2_Click(object sender, EventArgs e)
         {
             BidPanel.Hide();
+
+        
+
+        }
+
+        private void PictureBox7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

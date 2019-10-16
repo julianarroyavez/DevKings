@@ -17,7 +17,7 @@ namespace DevSpadeGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new bord());
+            Application.Run(new picturebox1());
 
         }
     }
