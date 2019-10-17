@@ -132,5 +132,20 @@ namespace DevSpadeGame
         {
 
         }
+
+        private void P2C6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox39_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PictureBox43_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
