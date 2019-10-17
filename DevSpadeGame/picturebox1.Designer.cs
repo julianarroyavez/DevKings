@@ -360,6 +360,7 @@
             this.P1C1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1C1.TabIndex = 2;
             this.P1C1.TabStop = false;
+            this.P1C1.Click += new System.EventHandler(this.P1C1_Click);
             // 
             // P1C11
             // 

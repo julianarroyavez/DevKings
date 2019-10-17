@@ -28,8 +28,8 @@ namespace DevSpadeGame
 
         private void Picturebox1_Load(object sender, EventArgs e)
         {
-            Image img = Image.FromFile(Application.StartupPath + "/"  + @"cards/10_of_clubs.png");
-            P1C1.Image = img;
+           // Image img = Image.FromFile(Application.StartupPath + "/"  + @"cards/10C.png");
+           /// P1C1.Image = img;
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
@@ -126,6 +126,11 @@ namespace DevSpadeGame
             Deal myNewForm = new Deal();
 
             myNewForm.Show();
+        }
+
+        private void P1C1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
