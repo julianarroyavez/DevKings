@@ -803,6 +803,7 @@
             this.P1C13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P1C13.TabIndex = 46;
             this.P1C13.TabStop = false;
+            this.P1C13.Click += new System.EventHandler(this.P1C13_Click);
             // 
             // picturebox1
             // 
