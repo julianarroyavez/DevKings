@@ -183,6 +183,7 @@
             this.bid9.Text = "9";
             this.bid9.UseMnemonic = false;
             this.bid9.UseVisualStyleBackColor = true;
+            this.bid9.Click += new System.EventHandler(this.bid9_Click);
             // 
             // bid8
             // 
@@ -195,6 +196,7 @@
             this.bid8.Text = "8";
             this.bid8.UseMnemonic = false;
             this.bid8.UseVisualStyleBackColor = true;
+            this.bid8.Click += new System.EventHandler(this.bid8_Click);
             // 
             // bid2
             // 
@@ -220,6 +222,7 @@
             this.bid3.Text = "3";
             this.bid3.UseMnemonic = false;
             this.bid3.UseVisualStyleBackColor = true;
+            this.bid3.Click += new System.EventHandler(this.bid3_Click);
             // 
             // bid4
             // 
@@ -232,6 +235,7 @@
             this.bid4.Text = "4";
             this.bid4.UseMnemonic = false;
             this.bid4.UseVisualStyleBackColor = true;
+            this.bid4.Click += new System.EventHandler(this.bid4_Click);
             // 
             // bid5
             // 
@@ -244,6 +248,7 @@
             this.bid5.Text = "5";
             this.bid5.UseMnemonic = false;
             this.bid5.UseVisualStyleBackColor = true;
+            this.bid5.Click += new System.EventHandler(this.bid5_Click);
             // 
             // bid6
             // 
@@ -256,6 +261,7 @@
             this.bid6.Text = "6";
             this.bid6.UseMnemonic = false;
             this.bid6.UseVisualStyleBackColor = true;
+            this.bid6.Click += new System.EventHandler(this.bid6_Click);
             // 
             // bid7
             // 
@@ -268,6 +274,7 @@
             this.bid7.Text = "7";
             this.bid7.UseMnemonic = false;
             this.bid7.UseVisualStyleBackColor = true;
+            this.bid7.Click += new System.EventHandler(this.bid7_Click);
             // 
             // bid12
             // 
@@ -280,6 +287,7 @@
             this.bid12.Text = "12";
             this.bid12.UseMnemonic = false;
             this.bid12.UseVisualStyleBackColor = true;
+            this.bid12.Click += new System.EventHandler(this.bid12_Click);
             // 
             // bid10
             // 
@@ -292,6 +300,7 @@
             this.bid10.Text = "10";
             this.bid10.UseMnemonic = false;
             this.bid10.UseVisualStyleBackColor = true;
+            this.bid10.Click += new System.EventHandler(this.bid10_Click);
             // 
             // bid11
             // 
@@ -304,6 +313,7 @@
             this.bid11.Text = "11";
             this.bid11.UseMnemonic = false;
             this.bid11.UseVisualStyleBackColor = true;
+            this.bid11.Click += new System.EventHandler(this.bid11_Click);
             // 
             // bid13
             // 
@@ -316,6 +326,7 @@
             this.bid13.Text = "13";
             this.bid13.UseMnemonic = false;
             this.bid13.UseVisualStyleBackColor = true;
+            this.bid13.Click += new System.EventHandler(this.bid13_Click);
             // 
             // bid1
             // 

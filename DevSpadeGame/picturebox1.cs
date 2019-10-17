@@ -50,5 +50,82 @@ namespace DevSpadeGame
         {
 
         }
+
+        private void bid3_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid4_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid5_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid6_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid7_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid8_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid9_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid10_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid11_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid12_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
+
+        private void bid13_Click(object sender, EventArgs e)
+        {
+            Deal myNewForm = new Deal();
+
+            myNewForm.Show();
+        }
     }
 }
