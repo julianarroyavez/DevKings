@@ -70,6 +70,24 @@
     <Compile Include="Deal.Designer.cs">
       <DependentUpon>Deal.cs</DependentUpon>
     </Compile>
+    <Compile Include="last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="last.Designer.cs">
+      <DependentUpon>last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lose.Designer.cs">
+      <DependentUpon>Lose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winner.Designer.cs">
+      <DependentUpon>Winner.cs</DependentUpon>
+    </Compile>
     <Compile Include="picturebox1.cs">
       <SubType>Form</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -103,6 +121,12 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="last.resx">
+      <DependentUpon>last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lose.resx">
+      <DependentUpon>Lose.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="picturebox1.resx">
       <DependentUpon>picturebox1.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -114,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rules.resx">
       <DependentUpon>Rules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winner.resx">
+      <DependentUpon>Winner.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
