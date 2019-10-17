@@ -44,8 +44,8 @@
             this.bid11 = new System.Windows.Forms.Button();
             this.bid13 = new System.Windows.Forms.Button();
             this.bid1 = new System.Windows.Forms.Button();
-            this.card1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.P1C2 = new System.Windows.Forms.PictureBox();
+            this.P1C1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -89,8 +89,8 @@
             this.pictureBox43 = new System.Windows.Forms.PictureBox();
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.BidPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.card1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1C2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1C1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -326,25 +326,25 @@
             this.bid1.UseVisualStyleBackColor = true;
             this.bid1.Click += new System.EventHandler(this.Bid1_Click);
             // 
-            // card1
+            // P1C2
             // 
-            this.card1.Image = ((System.Drawing.Image)(resources.GetObject("card1.Image")));
-            this.card1.Location = new System.Drawing.Point(270, 367);
-            this.card1.Name = "card1";
-            this.card1.Size = new System.Drawing.Size(52, 81);
-            this.card1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.card1.TabIndex = 0;
-            this.card1.TabStop = false;
+            this.P1C2.Image = ((System.Drawing.Image)(resources.GetObject("P1C2.Image")));
+            this.P1C2.Location = new System.Drawing.Point(270, 367);
+            this.P1C2.Name = "P1C2";
+            this.P1C2.Size = new System.Drawing.Size(52, 81);
+            this.P1C2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1C2.TabIndex = 0;
+            this.P1C2.TabStop = false;
             // 
-            // pictureBox3
+            // P1C1
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(231, 367);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(52, 81);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.P1C1.Image = ((System.Drawing.Image)(resources.GetObject("P1C1.Image")));
+            this.P1C1.Location = new System.Drawing.Point(231, 367);
+            this.P1C1.Name = "P1C1";
+            this.P1C1.Size = new System.Drawing.Size(52, 81);
+            this.P1C1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.P1C1.TabIndex = 2;
+            this.P1C1.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -772,7 +772,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::DevSpadeGame.Properties.Resources.backg2;
+            this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BidPanel);
             this.Controls.Add(this.pictureBox34);
@@ -817,14 +817,14 @@
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.card1);
+            this.Controls.Add(this.P1C1);
+            this.Controls.Add(this.P1C2);
             this.Name = "picturebox1";
             this.Text = "picturebox1";
             this.Load += new System.EventHandler(this.Picturebox1_Load);
             this.BidPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.card1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1C2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.P1C1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -890,8 +890,8 @@
         private System.Windows.Forms.Button bid13;
         private System.Windows.Forms.Button bid1;
 
-        private System.Windows.Forms.PictureBox card1;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox P1C2;
+        private System.Windows.Forms.PictureBox P1C1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;

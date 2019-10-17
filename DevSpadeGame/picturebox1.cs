@@ -28,8 +28,8 @@ namespace DevSpadeGame
 
         private void Picturebox1_Load(object sender, EventArgs e)
         {
-            Image img = Image.FromFile(Application.StartupPath + "/"  + @"backg1.jpg");
-            card1.Image = img;
+            //Image img = Image.FromFile(Application.StartupPath + "/"  + @"backg1.jpg");
+            //card1.Image = img;
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
