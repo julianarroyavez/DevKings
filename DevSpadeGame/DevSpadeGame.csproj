@@ -129,7 +129,9 @@
     <Content Include="background2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="cards\10_of_clubs.png" />
+    <Content Include="cards\10_of_clubs.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="cards\10_of_diamonds.png" />
     <Content Include="cards\10_of_hearts.png" />
     <Content Include="cards\10_of_spades.png" />
