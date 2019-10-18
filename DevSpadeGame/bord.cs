@@ -109,5 +109,9 @@ namespace DevSpadeGame
             
         }
 
+        private void DificultPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

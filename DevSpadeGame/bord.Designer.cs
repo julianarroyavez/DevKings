@@ -35,8 +35,6 @@
             this.Probutton = new System.Windows.Forms.Button();
             this.Standardbutton = new System.Windows.Forms.Button();
             this.Eassybutton = new System.Windows.Forms.Button();
-            this.winnerbtn = new System.Windows.Forms.Button();
-            this.drawimgbutton = new System.Windows.Forms.Button();
             this.startmenu.SuspendLayout();
             this.DificultPanel.SuspendLayout();
             this.SuspendLayout();
@@ -65,7 +63,7 @@
             // 
             this.startmenu.Controls.Add(this.button2);
             this.startmenu.Controls.Add(this.button1);
-            this.startmenu.Location = new System.Drawing.Point(402, 47);
+            this.startmenu.Location = new System.Drawing.Point(400, 114);
             this.startmenu.Name = "startmenu";
             this.startmenu.Size = new System.Drawing.Size(118, 275);
             this.startmenu.TabIndex = 2;
@@ -75,11 +73,12 @@
             this.DificultPanel.Controls.Add(this.Probutton);
             this.DificultPanel.Controls.Add(this.Standardbutton);
             this.DificultPanel.Controls.Add(this.Eassybutton);
-            this.DificultPanel.Location = new System.Drawing.Point(140, 47);
+            this.DificultPanel.Location = new System.Drawing.Point(356, 114);
             this.DificultPanel.Name = "DificultPanel";
             this.DificultPanel.Size = new System.Drawing.Size(198, 321);
             this.DificultPanel.TabIndex = 3;
             this.DificultPanel.Visible = false;
+            this.DificultPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.DificultPanel_Paint);
             // 
             // Probutton
             // 
@@ -111,34 +110,12 @@
             this.Eassybutton.UseVisualStyleBackColor = true;
             this.Eassybutton.Click += new System.EventHandler(this.Eassybutton_Click);
             // 
-            // winnerbtn
-            // 
-            this.winnerbtn.Location = new System.Drawing.Point(348, 439);
-            this.winnerbtn.Name = "winnerbtn";
-            this.winnerbtn.Size = new System.Drawing.Size(152, 48);
-            this.winnerbtn.TabIndex = 4;
-            this.winnerbtn.Text = "END";
-            this.winnerbtn.UseVisualStyleBackColor = true;
-            this.winnerbtn.Click += new System.EventHandler(this.winnerbtn_Click);
-            // 
-            // drawimgbutton
-            // 
-            this.drawimgbutton.Location = new System.Drawing.Point(609, 188);
-            this.drawimgbutton.Name = "drawimgbutton";
-            this.drawimgbutton.Size = new System.Drawing.Size(198, 66);
-            this.drawimgbutton.TabIndex = 5;
-            this.drawimgbutton.Text = "Draw image";
-            this.drawimgbutton.UseVisualStyleBackColor = true;
-            this.drawimgbutton.Click += new System.EventHandler(this.drawimgbutton_Click);
-            // 
             // bord
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(851, 531);
-            this.Controls.Add(this.drawimgbutton);
-            this.Controls.Add(this.winnerbtn);
             this.Controls.Add(this.DificultPanel);
             this.Controls.Add(this.startmenu);
             this.Name = "bord";
@@ -159,9 +136,6 @@
         private System.Windows.Forms.Button Probutton;
         private System.Windows.Forms.Button Standardbutton;
         private System.Windows.Forms.Button Eassybutton;
-
-        private System.Windows.Forms.Button winnerbtn;
-        private System.Windows.Forms.Button drawimgbutton;
 
     }
 }
