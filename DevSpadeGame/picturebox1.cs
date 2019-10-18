@@ -28,8 +28,27 @@ namespace DevSpadeGame
 
         private void Picturebox1_Load(object sender, EventArgs e)
         {
-           Image img = Image.FromFile(Application.StartupPath + "/"  + @"cards/10C.png");
-           P1C1.Image = img;
+
+            List<int> listCards = new List<int>();
+
+            for (int i = 0; i < 52; i++)
+            {
+                listCards.Add(i);
+            }
+
+            List<int> player1 = new List<int>();
+
+            //List<int> lCards = listCards.Where(x => x > 0).ToList<int>();
+
+            for (int i = 0; i < 13; i++)
+            {
+                Random r = new Random(DateTime.Now.Millisecond);
+                var position = r.Next(0, listCards.Count());
+                var card = listCards.ElementAt(position);
+                player1.Add(card);
+                var itemToRemove = listCards.Single(d => d == card);
+                listCards.Remove(itemToRemove);
+            }
 
 
             var dictionaryCards = new Dictionary<int, string>() {
@@ -86,11 +105,37 @@ namespace DevSpadeGame
                 {51,@"cards/QS.png" },
                 {52,@"cards/KS.png" }
 
+            };
 
+      
 
+                Image img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[0]]);
+                P1C1.Image = img;
+             img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[1]]);
+            P1C2.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[2]]);
+            P1C3.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[3]]);
+            P1C4.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[4]]);
+            P1C5.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[5]]);
+            P1C6.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[6]]);
+            P1C7.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[7]]);
+            P1C8.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[8]]);
+            P1C9.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[9]]);
+            P1C10.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[10]]);
+            P1C11.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[11]]);
+            P1C12.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[12]]);
+            P1C13.Image = img;
 
-
-            }
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
