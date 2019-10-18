@@ -21,10 +21,10 @@ namespace DevSpadeGame
         private void Bid1_Click(object sender, EventArgs e)
         {
             BidPanel.Hide();
-           
+
         }
 
-        
+
 
         private void Picturebox1_Load(object sender, EventArgs e)
         {
@@ -107,11 +107,11 @@ namespace DevSpadeGame
 
             };
 
-      
 
-                Image img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[0]]);
-                P1C1.Image = img;
-             img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[1]]);
+
+            Image img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[0]]);
+            P1C1.Image = img;
+            img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[1]]);
             P1C2.Image = img;
             img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[2]]);
             P1C3.Image = img;
@@ -136,116 +136,117 @@ namespace DevSpadeGame
             img = Image.FromFile(Application.StartupPath + "/" + dictionaryCards[player1[12]]);
             P1C13.Image = img;
 
-        }
 
-        private void PictureBox4_Click(object sender, EventArgs e)
 
-        {
+
 
         }
 
-        private void Bid2_Click(object sender, EventArgs e)
-        {
-            BidPanel.Hide();
+    }
 
-        
+    private void PictureBox4_Click(object sender, EventArgs e)
 
-        }
+    {
 
-        private void PictureBox7_Click(object sender, EventArgs e)
-        {
+    }
 
-        }
+    private void Bid2_Click(object sender, EventArgs e)
+    {
+        BidPanel.Hide();
 
-        private void bid3_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
 
-            myNewForm.Show();
-        }
 
-        private void bid4_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+    }
 
-            myNewForm.Show();
-        }
+    private void PictureBox7_Click(object sender, EventArgs e)
+    {
 
-        private void bid5_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+    }
 
-            myNewForm.Show();
-        }
+    private void bid3_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void bid6_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+        myNewForm.Show();
+    }
 
-            myNewForm.Show();
-        }
+    private void bid4_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void bid7_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+        myNewForm.Show();
+    }
 
-            myNewForm.Show();
-        }
+    private void bid5_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void bid8_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+        myNewForm.Show();
+    }
 
-            myNewForm.Show();
-        }
+    private void bid6_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void bid9_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+        myNewForm.Show();
+    }
 
-            myNewForm.Show();
-        }
+    private void bid7_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void bid10_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+        myNewForm.Show();
+    }
 
-            myNewForm.Show();
-        }
+    private void bid8_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void bid11_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+        myNewForm.Show();
+    }
 
-            myNewForm.Show();
-        }
+    private void bid9_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void bid12_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+        myNewForm.Show();
+    }
 
-            myNewForm.Show();
-        }
+    private void bid10_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void bid13_Click(object sender, EventArgs e)
-        {
-            Deal myNewForm = new Deal();
+        myNewForm.Show();
+    }
 
-            myNewForm.Show();
-        }
+    private void bid11_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void P1C1_Click(object sender, EventArgs e)
-        {
+        myNewForm.Show();
+    }
 
-        }
+    private void bid12_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
 
-        private void P1C13_Click(object sender, EventArgs e)
-        {
+        myNewForm.Show();
+    }
 
-        }
+    private void bid13_Click(object sender, EventArgs e)
+    {
+        Deal myNewForm = new Deal();
+
+        myNewForm.Show();
+    }
+
+    private void P1C1_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void P1C13_Click(object sender, EventArgs e)
+    {
+
     }
 }
-
-
-
-

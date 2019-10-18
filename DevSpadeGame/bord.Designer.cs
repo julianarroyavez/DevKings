@@ -63,7 +63,7 @@
             // 
             this.startmenu.Controls.Add(this.button2);
             this.startmenu.Controls.Add(this.button1);
-            this.startmenu.Location = new System.Drawing.Point(402, 47);
+            this.startmenu.Location = new System.Drawing.Point(400, 114);
             this.startmenu.Name = "startmenu";
             this.startmenu.Size = new System.Drawing.Size(118, 275);
             this.startmenu.TabIndex = 2;
@@ -73,11 +73,16 @@
             this.DificultPanel.Controls.Add(this.Probutton);
             this.DificultPanel.Controls.Add(this.Standardbutton);
             this.DificultPanel.Controls.Add(this.Eassybutton);
+
             this.DificultPanel.Location = new System.Drawing.Point(363, 21);
+
+            this.DificultPanel.Location = new System.Drawing.Point(356, 114);
+
             this.DificultPanel.Name = "DificultPanel";
             this.DificultPanel.Size = new System.Drawing.Size(198, 321);
             this.DificultPanel.TabIndex = 3;
             this.DificultPanel.Visible = false;
+            this.DificultPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.DificultPanel_Paint);
             // 
             // Probutton
             // 
